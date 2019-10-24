@@ -44,7 +44,7 @@ const vueRouter = new Router({
 })
 
 vueRouter.beforeEach((to, from, next) => {
-  console.log(to)
+  if (to.path === '/login' && localStorage.hasOwnProperty('token')) next('/Homepage')
   // 目标路径为首页和登录不需要校验
   if (to.path === '/' || to.path === '/login') return next()
   // 无token直接跳转登录

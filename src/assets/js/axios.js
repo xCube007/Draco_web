@@ -8,7 +8,6 @@ axios.defaults.baseURL = 'https://www.cube007.cn/draco/'
 
 // 请求拦截
 axios.interceptors.request.use(function (config) {
-  console.log(config)
   config.headers.Authorization = localStorage.getItem('token')
   // Do something before request is sent
   return config

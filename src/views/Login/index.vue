@@ -81,9 +81,6 @@ export default {
       }
     }
   },
-  created () {
-    console.log(this.$store.state.loginStatus)
-  },
   methods: {
     login () { // 登录
       let method

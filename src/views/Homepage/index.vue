@@ -108,7 +108,6 @@ export default {
     getUserInfo () {
       this.$axios.get(this.$url('GET_USER_INFO')).then(res => {
         if (res.code === '200') {
-          console.log(res.data)
           this.$store.commit('chgLoginStatus', true)
         }
       })
