@@ -14,7 +14,7 @@
     </transition>
     <!-- 备案号 -->
     <div style="width:800px;margin:0 auto; padding:20px 0;position:absolute;bottom:0;left:0;right:0;">
-      <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802029524" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">©2019 draco.cn All rights reserved. 京ICP备19037235号 京公网安备 11010802029524号<img src="img/icon.png" style="float:right;"/></p></a>
+      <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802029524" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">©2019 cube007.cn All rights reserved. 京ICP备19037235号 京公网安备 11010802029524号<img src="img/icon.png" style="float:right;"/></p></a>
     </div>
     <!-- 备案号 -->
   </div>
